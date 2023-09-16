@@ -1,0 +1,89 @@
+header {
+  position: relative;
+}
+
+#contact-sec .contact-body {
+  text-align: center;
+  padding: 0 4em 4em 4em;
+}
+#contact-sec h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+#contact-sec p {
+  margin-bottom: 40px;
+}
+#contact-sec .google-map {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#contact-sec .google-map iframe {
+  width: 100%;
+  height: 100%;
+}
+#contact-sec .contact-form-part {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+}
+#contact-sec .contact-form-part form {
+  flex: 0.5;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-between;
+}
+#contact-sec .contact-form-part form h6 {
+  font-size: 1.2rem;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+#contact-sec .contact-form-part form .div-form-row {
+  display: inherit;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#contact-sec .contact-form-part form .div-form-row input, #contact-sec .contact-form-part form .div-form-row textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 3px;
+}
+#contact-sec .contact-form-part form .submit-btn {
+  margin-top: 10px;
+  outline: none;
+  border: 2px solid var(--primary-col);
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: var(--primary-col);
+  color: beige;
+  cursor: pointer;
+  transition: 0.35s;
+}
+#contact-sec .contact-form-part form .submit-btn:hover {
+  border: 2px solid var(--primary-col);
+  background-color: transparent;
+  color: var(--primary-col);
+}
+#contact-sec .contact-form-part .contact-img {
+  flex: 0.5;
+}
+#contact-sec .contact-form-part .contact-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid rgb(221, 221, 221);
+}

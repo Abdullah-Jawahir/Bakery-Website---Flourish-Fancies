@@ -1,0 +1,40 @@
+header {
+  position: relative;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+#about-us-sec {
+  padding-bottom: 5em;
+}
+#about-us-sec h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+#about-us-sec p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#about-us-sec .img-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+#about-us-sec .img-gallery .image {
+  overflow: hidden;
+}
+#about-us-sec .img-gallery .image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid rgb(221, 221, 221);
+}
